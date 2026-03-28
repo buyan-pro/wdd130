@@ -1,8 +1,6 @@
 :root {
     --primary-color: #055a05;
     /*Olive Leaf*/
-    --secondary-color: #f4a261;
-    /*Sandy Brown*/
     --accent1-color: #264653;
     /*Charcoal Blue*/
     --accent2-color: #e9c46a;
@@ -18,7 +16,7 @@ header {
 
 * {
     padding: 0px;
-    mardin: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -48,7 +46,7 @@ article {
     padding: 8px;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 }
 
