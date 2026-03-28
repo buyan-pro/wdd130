@@ -46,10 +46,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -76,7 +72,7 @@ h1 {
     width: 125px;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 328px;
     width: 800px;
@@ -94,4 +90,5 @@ article {
 
 .socialmedia a {
     margin-right: 5px;
+    text-decoration: none;
 }
