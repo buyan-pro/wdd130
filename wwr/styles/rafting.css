@@ -11,7 +11,43 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: whitesmoke;
+    padding: 50px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.navigation a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
 }
 
 * {
@@ -83,6 +119,53 @@ h1 {
     color: #fff;
 }
 
+/* -------------------------
+   HISTORY SECTION (3 COLUMNS)
+-------------------------- */
+.history {
+    text-align: center;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.history-content img {
+    width: 100%;
+    height: auto;
+}
+
+/* -------------------------
+   ADVENTURE SECTION (5 COLUMNS)
+-------------------------- */
+
+.adventure {
+    text-align: center;
+}
+
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.adventure-gallery figure {
+    margin: 0;
+}
+
+.adventure-gallery figcaption {
+    font-size: 0.9rem;
+}
+
 .socialmedia img {
     width: 35px;
     height: auto;
@@ -91,4 +174,9 @@ h1 {
 .socialmedia a {
     margin-right: 5px;
     text-decoration: none;
+}
+
+footer,
+p {
+    text-align: center;
 }
