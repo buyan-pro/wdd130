@@ -24,58 +24,88 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/rafting10_1024.jpg" alt="Whitewater Rafting Hero Image">
-            <h1>"Down the River" Rafting Company</h1>
-            <article>
-                <img src="images/our-staff.jpg" alt="Our Friendly Staff">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, maiores?</p>
-            </article>
-        </div>
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur!
-                </p>
-
-                <img src="images/history-rafting.jpg" alt="Rafting History Image">
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur!
-                </p>
+        <section class="address">
+            <div class="address-content">
+                <h2>"Down the River" Rafting Company</h2>
+                <p>123 Main River Street</p>
+                <p>Kolob, California</p>
+                <p>Ph: +1 999 999 9999</p>
+                <p>info@downtheriver.com</p>
             </div>
-        </section>
-        <section class="adventure">
-            <h2>Adventure Awaits You!</h2>
 
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="images/adventure-one.jpg" alt="Adventure 1">
-                    <figcaption>Ready To Go!</figcaption>
-                </figure>
+            <section class="contact">
 
-                <figure>
-                    <img src="images/adventure-two.jpg" alt="Adventure 2">
-                    <figcaption>Wild Rapids</figcaption>
-                </figure>
+                <!-- LEFT: Google Map -->
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_LINK"
+                      width="100%" height="100%" style="border:0;" allowfullscreen=""
+                      loading="lazy">
+                    </iframe>
+                </div>
 
-                <figure>
-                    <img src="images/adventure-three.jpg" alt="Adventure 3">
-                    <figcaption>Equipped</figcaption>
-                </figure>
+                <!-- RIGHT: Contact Form -->
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
 
-                <figure>
-                    <img src="images/adventure-four.jpg" alt="Adventure 4">
-                    <figcaption>Mountain Streams</figcaption>
-                </figure>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
 
-                <figure>
-                    <img src="images/adventure-five.jpg" alt="Adventure 5">
-                    <figcaption>Extreme Ride</figcaption>
-                </figure>
-            </div>
-        </section>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+
+                        <p><strong>Message Purpose:</strong></p>
+
+                        <label>
+                            <input type="radio" name="purpose" value="general" checked>
+                            General Inquiry
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+
+                        <label for="message"><strong>Message</strong></label>
+                        <textarea id="message" rows="5" required></textarea>
+
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter">Please,
+                            subscribe me to the monthly newsletter
+                        </label>
+
+                        <button type=" submit" class="btn">Get In Touch</button>
+                    </form>
+                </div>
+
+            </section>
+
+
+            <section class="employee">
+                <h2>We Are Here to Serve You!</h2>
+
+                <div class="employee-gallery">
+                    <figure>
+                        <img src="images/employee-1.png" alt="Employee 1">
+                        <figcaption>José Martínez</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/employee-2.png" alt="Employee 2">
+                        <figcaption>María González</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/employee-3.png" alt="Employee 3">
+                        <figcaption>Carlos Rodríguez</figcaption>
+                    </figure>
+                </div>
+            </section>
     </main>
 
     <footer>
